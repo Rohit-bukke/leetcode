@@ -1,11 +1,11 @@
 class Solution(object):
     def twoSum(self, nums, target):
-        mpp={}
-        for i in range(0,len(nums)):
-            a=nums[i]
-            more=target-a
-            if(more in mpp):
-                return [mpp[more],i]
-            mpp[a]=i
-        return "no"
+        n=len(nums)
+        hashmap={}
+        for i in range(0,n):
+            remaining= target-nums[i]
+            if remaining in hashmap:
+                return [hashmap[remaining],i]
+            hashmap[nums[i]]=i
+
         
