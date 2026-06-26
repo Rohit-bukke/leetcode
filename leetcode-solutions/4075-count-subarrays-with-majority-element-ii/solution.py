@@ -1,0 +1,25 @@
+class Solution(object):
+    def countMajoritySubarrays(self, nums, target):
+        subarrrays=[]
+        #prefix[r] for all the subarrays from 0 to n 
+        #prefix[r]-prefix[l-1] for in between the range
+        n = len(nums)
+        # represents the number of prefixes with prefix sums -n, -(n-1), ..., 0, 1, ..., n, with index offset n
+        pre = [0] * (n * 2 + 1)
+        pre[n] = 1
+        cnt = n
+        ans = presum = 0
+        for i in range(n):
+            if nums[i] == target:
+                presum += pre[cnt]
+                cnt += 1
+                pre[cnt] += 1
+            else:
+                cnt -= 1
+                presum -= pre[cnt]
+                pre[cnt] += 1
+            ans += presum
+        return ans
+
+
+        
