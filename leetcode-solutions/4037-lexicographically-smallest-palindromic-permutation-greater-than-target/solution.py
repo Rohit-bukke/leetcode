@@ -1,65 +1,94 @@
 class Solution:
-    def lexPalindromicPermutation(self, s: str, target: str) -> str:
+    def isPossible(self, n, freq, cur, mid, target):
+        freq = freq[:]  # copy, since C++ passes freq by value here
+
+        # build the largest possible arrangement of remaining chars (descending order)
+        for i in range(25, -1, -1):
+            while freq[i]:
+                cur += chr(ord('a') + i)
+                freq[i] -= 1
+
+        if mid != '#':
+            # odd-length palindrome: left half + mid + reverse(left half)
+            temp = cur
+            cur += mid
+            temp = temp[::-1]
+            cur += temp
+        else:
+            # even-length palindrome: left half + reverse(left half)
+            temp = cur
+            temp = temp[::-1]
+            cur += temp
+
+        # feasibility check: only valid if this (largest possible) candidate beats target
+        return cur if cur > target else ""
+
+    def lexPalindromicPermutation(self, s, target):
         n = len(s)
-        # Special case: length of 1
+
+        freq = [0] * 26
+
         if n == 1:
-            return s if s > target else ""
+            if s > target:
+                return s
+            else:
+                return ""
 
-        # Count the frequency of each character
-        cnt = [0] * 26
         for c in s:
-            cnt[ord(c) - ord("a")] += 1
+            freq[ord(c) - ord('a')] += 1
 
-        # Check if it can form a palindrome and record the characters with odd occurrences
-        odd_char = ""
+        mid = '#'
+        oddCount = 0
+
         for i in range(26):
-            if cnt[i] % 2 == 1:
-                # More than one character appears an odd number of times, cannot form a palindrome
-                if odd_char != "":
-                    return ""
-                odd_char = chr(ord("a") + i)
-            cnt[
-                i
-            ] //= 2  # It takes only half the characters to construct the left half
+            if freq[i] % 2:
+                # odd count -> this becomes the middle character
+                mid = chr(ord('a') + i)
+                freq[i] -= 1
+                oddCount += 1
 
-        prefix = []
+            freq[i] //= 2  # each char used freq[i]/2 times in the left half
 
-        def check(c):
-            left = prefix.copy()
-            left.append(c)
-            for i in range(25, -1, -1):
-                left.extend([chr(ord("a") + i)] * cnt[i])
+            if oddCount >= 2:
+                return ""  # more than one odd-frequency char -> can't form a palindrome
 
-            palindrome = left + [odd_char] + left[::-1]
+        n //= 2  # we only need to construct the left half now
 
-            return "".join(palindrome) > target
+        res, prefix = "", ""
 
-        # Construct the left part of each digit greedily
-        for i in range(n // 2):
-            found = False
-            # Try to place the smallest character in lexicographical order
+        # greedily build the left half, position by position
+        for i in range(n):
+
+            cur = prefix
+            isThereAny = False
+
+            # try smallest character first ('a' -> 'z')
             for j in range(26):
-                if cnt[j] == 0:
-                    continue
 
-                cnt[j] -= 1
-                if check(chr(ord("a") + j)):
-                    # If the constructed palindrome is greater than target, choose the character
-                    prefix.append(chr(ord("a") + j))
-                    found = True
-                    break
-                else:
-                    cnt[j] += 1  # Not meeting the conditions, reset the counter
-            if not found:
-                return ""  # Cannot construct a palindrome larger than target
+                if freq[j]:
 
-            if prefix[i] > target[i]:  # prefix is already greater than target
-                left = prefix[:]
-                for j in range(26):
-                    left.extend([chr(ord("a") + j)] * cnt[j])
-                palindrome = left + [odd_char] + left[::-1]
-                return "".join(palindrome)
+                    freq[j] -= 1
+                    cur += chr(ord('a') + j)
 
-        # Construct the final palindrome string
-        ans = prefix + [odd_char] + prefix[::-1]
-        return "".join(ans)
+                    # check if this prefix can still lead to a palindrome > target
+                    isPos = self.isPossible(n, freq, cur, mid, target)
+
+                    if isPos != "":
+                        prefix = cur      # keep this character, lock in the prefix
+                        isThereAny = True
+
+                        if res == "":
+                            res = isPos
+                        else:
+                            res = min(res, isPos)  # track smallest valid candidate seen
+
+                        break
+
+                    # this character doesn't work, undo and try the next one
+                    freq[j] += 1
+                    cur = cur[:-1]
+
+            if not isThereAny:
+                return ""  # no character works at this position -> impossible
+
+        return  res 
