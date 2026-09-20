@@ -72,6 +72,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Rohit-bukke/leetcode/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
+| [3498-reverse-degree-of-a-string](https://github.com/Rohit-bukke/leetcode/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -88,4 +89,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Rohit-bukke/leetcode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3498-reverse-degree-of-a-string](https://github.com/Rohit-bukke/leetcode/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 <!---LeetCode Topics End-->
