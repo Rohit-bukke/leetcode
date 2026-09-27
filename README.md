@@ -16,6 +16,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0268-missing-number](https://github.com/Rohit-bukke/leetcode/tree/main/0268-missing-number/) | Easy |
 | [0835-image-overlap](https://github.com/Rohit-bukke/leetcode/tree/main/0835-image-overlap/) | Medium |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Rohit-bukke/leetcode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Rohit-bukke/leetcode/tree/main/3414-maximum-score-of-non-overlapping-intervals/) | Hard |
@@ -23,6 +24,7 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0268-missing-number](https://github.com/Rohit-bukke/leetcode/tree/main/0268-missing-number/) | Easy |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Rohit-bukke/leetcode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [3483-unique-3-digit-even-numbers](https://github.com/Rohit-bukke/leetcode/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 ## Recursion
@@ -37,6 +39,7 @@
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0268-missing-number](https://github.com/Rohit-bukke/leetcode/tree/main/0268-missing-number/) | Easy |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Rohit-bukke/leetcode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Rohit-bukke/leetcode/tree/main/3414-maximum-score-of-non-overlapping-intervals/) | Hard |
 ## Dynamic Programming
@@ -49,6 +52,7 @@
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0268-missing-number](https://github.com/Rohit-bukke/leetcode/tree/main/0268-missing-number/) | Easy |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Rohit-bukke/leetcode/tree/main/3414-maximum-score-of-non-overlapping-intervals/) | Hard |
 ## Matrix
 | Problem Name | Difficulty |
@@ -57,6 +61,7 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0268-missing-number](https://github.com/Rohit-bukke/leetcode/tree/main/0268-missing-number/) | Easy |
 | [0836-rectangle-overlap](https://github.com/Rohit-bukke/leetcode/tree/main/0836-rectangle-overlap/) | Easy |
 | [1401-circle-and-rectangle-overlapping](https://github.com/Rohit-bukke/leetcode/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Rohit-bukke/leetcode/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
@@ -107,4 +112,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Rohit-bukke/leetcode/tree/main/0021-merge-two-sorted-lists/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0268-missing-number](https://github.com/Rohit-bukke/leetcode/tree/main/0268-missing-number/) | Easy |
 <!---LeetCode Topics End-->
