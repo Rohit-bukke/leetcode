@@ -3,7 +3,8 @@ name: Sync Leetcode
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    # Runs every 4 hours (adjust as needed, e.g. "0 * * * *" for every hour)
+    - cron: "0 */4 * * *"
 
 permissions:
   contents: write
@@ -11,7 +12,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Sync
         uses: joshcai/leetcode-sync@v1.7
