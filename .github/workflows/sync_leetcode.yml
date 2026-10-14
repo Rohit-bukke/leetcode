@@ -3,8 +3,7 @@ name: Sync Leetcode
 on:
   workflow_dispatch:
   schedule:
-    # Runs every 4 hours (adjust as needed, e.g. "0 * * * *" for every hour)
-    - cron: "0 */4 * * *"
+    - cron: "0 0 * * *"
 
 permissions:
   contents: write
@@ -13,8 +12,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Sync
-        uses: joshcai/leetcode-sync@v1.7
+      - name: Sync LeetCode
+        uses: baalexander/leetcode-sync@v1.8.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
