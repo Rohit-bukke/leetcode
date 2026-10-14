@@ -9,15 +9,94 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Sync LeetCode
-        uses: baalexander/leetcode-sync@v1.8.0
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
-          leetcode-session: ${{ secrets.LEETCODE_SESSION }}
-          destination-folder: leetcode-solutions
-          verbose: true
-          commit-header: "[LeetCode Sync]"
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Fetch Recent Submissions & Save
+        env:
+          LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
+          LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+        run: |
+          python - << 'EOF'
+          import os
+          import requests
+          import json
+
+          session = os.environ.get("LEETCODE_SESSION", "")
+          csrf = os.environ.get("LEETCODE_CSRF_TOKEN", "")
+
+          url = "https://leetcode.com/graphql"
+          headers = {
+              "Content-Type": "application/json",
+              "Referer": "https://leetcode.com",
+              "Cookie": f"LEETCODE_SESSION={session}; csrftoken={csrf};",
+              "x-csrftoken": csrf,
+              "User-Agent": "Mozilla/5.0"
+          }
+
+          # Updated GraphQL query for user submission history
+          query = """
+          query recentAcSubmissions($username: String!, $limit: Int!) {
+            recentAcSubmissionList(username: $username, limit: $limit) {
+              id
+              title
+              titleSlug
+              timestamp
+            }
+          }
+          """
+
+          # First, get the authenticated username
+          user_query = """query globalData { userStatus { username } }"""
+          r = requests.post(url, json={"query": user_query}, headers=headers)
+          data = r.json()
+          username = data.get("data", {}).get("userStatus", {}).get("username")
+
+          if not username:
+              print("Authentication failed. Please verify LEETCODE_SESSION and LEETCODE_CSRF_TOKEN secrets.")
+              exit(1)
+
+          print(f"Authenticated as: {username}")
+
+          # Fetch recent accepted submissions
+          res = requests.post(url, json={
+              "query": query,
+              "variables": {"username": username, "limit": 20}
+          }, headers=headers)
+
+          submissions = res.json().get("data", {}).get("recentAcSubmissionList", [])
+          os.makedirs("leetcode-solutions", exist_ok=True)
+
+          for sub in submissions:
+              slug = sub.get("titleSlug")
+              title = sub.get("title")
+              # Create a placeholder tracker or README if not already saved
+              file_path = f"leetcode-solutions/{slug}.md"
+              if not os.path.exists(file_path):
+                  with open(file_path, "w") as f:
+                      f.write(f"# {title}\n\nSubmission ID: {sub.get('id')}\nTimestamp: {sub.get('timestamp')}\n")
+                  print(f"Recorded: {title}")
+          EOF
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add leetcode-solutions/
+          if git diff --staged --quiet; then
+            echo "No new submissions to commit."
+          else
+            git commit -m "[LeetCode Sync] Update recent solutions"
+            git push
+          fi
