@@ -5,11 +5,13 @@
 |  |
 | ------- |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Rohit-bukke/leetcode/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/Rohit-bukke/leetcode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [1254-number-of-closed-islands](https://github.com/Rohit-bukke/leetcode/tree/master/1254-number-of-closed-islands) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Rohit-bukke/leetcode/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/Rohit-bukke/leetcode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -25,6 +27,7 @@
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Rohit-bukke/leetcode/tree/main/3414-maximum-score-of-non-overlapping-intervals/) | Hard |
 | [3483-unique-3-digit-even-numbers](https://github.com/Rohit-bukke/leetcode/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/Rohit-bukke/leetcode/tree/master/3644-maximum-k-to-sort-a-permutation) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/Rohit-bukke/leetcode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/Rohit-bukke/leetcode/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3886-sum-of-sortable-integers](https://github.com/Rohit-bukke/leetcode/tree/master/3886-sum-of-sortable-integers) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/Rohit-bukke/leetcode/tree/master/3942-minimum-operations-to-sort-a-permutation) |
@@ -96,6 +99,7 @@
 | [2409-count-days-spent-together](https://github.com/Rohit-bukke/leetcode/tree/master/2409-count-days-spent-together) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Rohit-bukke/leetcode/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 | [3498-reverse-degree-of-a-string](https://github.com/Rohit-bukke/leetcode/tree/main/3498-reverse-degree-of-a-string/) | Easy |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/Rohit-bukke/leetcode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/Rohit-bukke/leetcode/tree/master/3863-minimum-operations-to-sort-a-string) |
 ## Greedy
 |  |
@@ -134,11 +138,13 @@
 | ------- |
 | [0268-missing-number](https://github.com/Rohit-bukke/leetcode/tree/main/0268-missing-number/) | Easy |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/Rohit-bukke/leetcode/tree/master/3644-maximum-k-to-sort-a-permutation) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/Rohit-bukke/leetcode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/Rohit-bukke/leetcode/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Rohit-bukke/leetcode/tree/main/0053-maximum-subarray/) | Medium |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/Rohit-bukke/leetcode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -147,4 +153,12 @@
 |  |
 | ------- |
 | [1254-number-of-closed-islands](https://github.com/Rohit-bukke/leetcode/tree/master/1254-number-of-closed-islands) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/Rohit-bukke/leetcode/tree/master/3841-palindromic-path-queries-in-a-tree) |
+## Segment Tree
+|  |
+| ------- |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/Rohit-bukke/leetcode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 <!---LeetCode Topics End-->
