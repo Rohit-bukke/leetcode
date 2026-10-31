@@ -20,6 +20,7 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Rohit-bukke/leetcode/tree/main/0053-maximum-subarray/) | Medium |
+| [0054-spiral-matrix](https://github.com/Rohit-bukke/leetcode/tree/master/0054-spiral-matrix) |
 | [0268-missing-number](https://github.com/Rohit-bukke/leetcode/tree/main/0268-missing-number/) | Easy |
 | [0835-image-overlap](https://github.com/Rohit-bukke/leetcode/tree/main/0835-image-overlap/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/Rohit-bukke/leetcode/tree/master/1254-number-of-closed-islands) |
@@ -73,6 +74,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Rohit-bukke/leetcode/tree/master/0054-spiral-matrix) |
 | [0835-image-overlap](https://github.com/Rohit-bukke/leetcode/tree/main/0835-image-overlap/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/Rohit-bukke/leetcode/tree/master/1254-number-of-closed-islands) |
 | [3665-twisted-mirror-path-count](https://github.com/Rohit-bukke/leetcode/tree/master/3665-twisted-mirror-path-count) |
@@ -124,6 +126,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Rohit-bukke/leetcode/tree/master/0054-spiral-matrix) |
 | [3498-reverse-degree-of-a-string](https://github.com/Rohit-bukke/leetcode/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 ## Stack
 |  |
