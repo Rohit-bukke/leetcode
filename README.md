@@ -22,6 +22,7 @@
 | [0053-maximum-subarray](https://github.com/Rohit-bukke/leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0054-spiral-matrix](https://github.com/Rohit-bukke/leetcode/tree/master/0054-spiral-matrix) |
 | [0268-missing-number](https://github.com/Rohit-bukke/leetcode/tree/main/0268-missing-number/) | Easy |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/Rohit-bukke/leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0835-image-overlap](https://github.com/Rohit-bukke/leetcode/tree/main/0835-image-overlap/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/Rohit-bukke/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Rohit-bukke/leetcode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
@@ -83,6 +84,7 @@
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Rohit-bukke/leetcode/tree/main/0268-missing-number/) | Easy |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/Rohit-bukke/leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0836-rectangle-overlap](https://github.com/Rohit-bukke/leetcode/tree/main/0836-rectangle-overlap/) | Easy |
 | [1401-circle-and-rectangle-overlapping](https://github.com/Rohit-bukke/leetcode/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Rohit-bukke/leetcode/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
