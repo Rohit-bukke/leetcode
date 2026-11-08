@@ -10,6 +10,7 @@
 |  |
 | ------- |
 | [1254-number-of-closed-islands](https://github.com/Rohit-bukke/leetcode/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/Rohit-bukke/leetcode/tree/master/1267-count-servers-that-communicate) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Rohit-bukke/leetcode/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/Rohit-bukke/leetcode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Binary Tree
@@ -25,6 +26,7 @@
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/Rohit-bukke/leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0835-image-overlap](https://github.com/Rohit-bukke/leetcode/tree/main/0835-image-overlap/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/Rohit-bukke/leetcode/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/Rohit-bukke/leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Rohit-bukke/leetcode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [1882-process-tasks-using-servers](https://github.com/Rohit-bukke/leetcode/tree/master/1882-process-tasks-using-servers) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Rohit-bukke/leetcode/tree/main/3414-maximum-score-of-non-overlapping-intervals/) | Hard |
@@ -80,6 +82,7 @@
 | [0054-spiral-matrix](https://github.com/Rohit-bukke/leetcode/tree/master/0054-spiral-matrix) |
 | [0835-image-overlap](https://github.com/Rohit-bukke/leetcode/tree/main/0835-image-overlap/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/Rohit-bukke/leetcode/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/Rohit-bukke/leetcode/tree/master/1267-count-servers-that-communicate) |
 | [3665-twisted-mirror-path-count](https://github.com/Rohit-bukke/leetcode/tree/master/3665-twisted-mirror-path-count) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/Rohit-bukke/leetcode/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Math
@@ -161,10 +164,12 @@
 |  |
 | ------- |
 | [1254-number-of-closed-islands](https://github.com/Rohit-bukke/leetcode/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/Rohit-bukke/leetcode/tree/master/1267-count-servers-that-communicate) |
 ## Union-Find
 |  |
 | ------- |
 | [1254-number-of-closed-islands](https://github.com/Rohit-bukke/leetcode/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/Rohit-bukke/leetcode/tree/master/1267-count-servers-that-communicate) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -186,4 +191,8 @@
 |  |
 | ------- |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/Rohit-bukke/leetcode/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
+## Counting
+|  |
+| ------- |
+| [1267-count-servers-that-communicate](https://github.com/Rohit-bukke/leetcode/tree/master/1267-count-servers-that-communicate) |
 <!---LeetCode Topics End-->
