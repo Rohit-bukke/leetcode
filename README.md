@@ -28,6 +28,7 @@
 | [1254-number-of-closed-islands](https://github.com/Rohit-bukke/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1267-count-servers-that-communicate](https://github.com/Rohit-bukke/leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Rohit-bukke/leetcode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/Rohit-bukke/leetcode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1882-process-tasks-using-servers](https://github.com/Rohit-bukke/leetcode/tree/master/1882-process-tasks-using-servers) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Rohit-bukke/leetcode/tree/main/3414-maximum-score-of-non-overlapping-intervals/) | Hard |
 | [3483-unique-3-digit-even-numbers](https://github.com/Rohit-bukke/leetcode/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
@@ -135,6 +136,7 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Rohit-bukke/leetcode/tree/master/0054-spiral-matrix) |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/Rohit-bukke/leetcode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [3498-reverse-degree-of-a-string](https://github.com/Rohit-bukke/leetcode/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 ## Stack
 |  |
@@ -185,6 +187,7 @@
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/Rohit-bukke/leetcode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1882-process-tasks-using-servers](https://github.com/Rohit-bukke/leetcode/tree/master/1882-process-tasks-using-servers) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/Rohit-bukke/leetcode/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Shortest Path
@@ -195,4 +198,8 @@
 |  |
 | ------- |
 | [1267-count-servers-that-communicate](https://github.com/Rohit-bukke/leetcode/tree/master/1267-count-servers-that-communicate) |
+## Ordered Set
+|  |
+| ------- |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/Rohit-bukke/leetcode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 <!---LeetCode Topics End-->
