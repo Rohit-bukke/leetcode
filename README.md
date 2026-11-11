@@ -96,6 +96,7 @@
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Rohit-bukke/leetcode/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [2409-count-days-spent-together](https://github.com/Rohit-bukke/leetcode/tree/master/2409-count-days-spent-together) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Rohit-bukke/leetcode/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/Rohit-bukke/leetcode/tree/master/3789-minimum-cost-to-acquire-required-items) |
 | [3886-sum-of-sortable-integers](https://github.com/Rohit-bukke/leetcode/tree/master/3886-sum-of-sortable-integers) |
 ## Geometry
 |  |
@@ -120,6 +121,7 @@
 |  |
 | ------- |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Rohit-bukke/leetcode/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/Rohit-bukke/leetcode/tree/master/3789-minimum-cost-to-acquire-required-items) |
 ## Combinatorics
 |  |
 | ------- |
