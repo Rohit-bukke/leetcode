@@ -30,6 +30,7 @@
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Rohit-bukke/leetcode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/Rohit-bukke/leetcode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1882-process-tasks-using-servers](https://github.com/Rohit-bukke/leetcode/tree/master/1882-process-tasks-using-servers) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/Rohit-bukke/leetcode/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Rohit-bukke/leetcode/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3364-minimum-positive-sum-subarray](https://github.com/Rohit-bukke/leetcode/tree/master/3364-minimum-positive-sum-subarray) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Rohit-bukke/leetcode/tree/main/3414-maximum-score-of-non-overlapping-intervals/) | Hard |
@@ -78,6 +79,7 @@
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Rohit-bukke/leetcode/tree/main/0268-missing-number/) | Easy |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/Rohit-bukke/leetcode/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Rohit-bukke/leetcode/tree/main/3414-maximum-score-of-non-overlapping-intervals/) | Hard |
 | [3886-sum-of-sortable-integers](https://github.com/Rohit-bukke/leetcode/tree/master/3886-sum-of-sortable-integers) |
 ## Matrix
@@ -124,6 +126,7 @@
 |  |
 | ------- |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Rohit-bukke/leetcode/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/Rohit-bukke/leetcode/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/Rohit-bukke/leetcode/tree/master/3789-minimum-cost-to-acquire-required-items) |
 ## Combinatorics
 |  |
