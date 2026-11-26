@@ -105,6 +105,7 @@
 | [1401-circle-and-rectangle-overlapping](https://github.com/Rohit-bukke/leetcode/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Rohit-bukke/leetcode/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [2409-count-days-spent-together](https://github.com/Rohit-bukke/leetcode/tree/master/2409-count-days-spent-together) |
+| [3360-stone-removal-game](https://github.com/Rohit-bukke/leetcode/tree/master/3360-stone-removal-game) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Rohit-bukke/leetcode/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/Rohit-bukke/leetcode/tree/master/3789-minimum-cost-to-acquire-required-items) |
 | [3886-sum-of-sortable-integers](https://github.com/Rohit-bukke/leetcode/tree/master/3886-sum-of-sortable-integers) |
@@ -155,6 +156,7 @@
 | ------- |
 | [0054-spiral-matrix](https://github.com/Rohit-bukke/leetcode/tree/master/0054-spiral-matrix) |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/Rohit-bukke/leetcode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
+| [3360-stone-removal-game](https://github.com/Rohit-bukke/leetcode/tree/master/3360-stone-removal-game) |
 | [3498-reverse-degree-of-a-string](https://github.com/Rohit-bukke/leetcode/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 ## Stack
 |  |
