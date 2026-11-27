@@ -45,6 +45,7 @@
 | [3886-sum-of-sortable-integers](https://github.com/Rohit-bukke/leetcode/tree/master/3886-sum-of-sortable-integers) |
 | [3934-smallest-unique-subarray](https://github.com/Rohit-bukke/leetcode/tree/master/3934-smallest-unique-subarray) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/Rohit-bukke/leetcode/tree/master/3942-minimum-operations-to-sort-a-permutation) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/Rohit-bukke/leetcode/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -79,6 +80,7 @@
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Rohit-bukke/leetcode/tree/main/3414-maximum-score-of-non-overlapping-intervals/) | Hard |
 | [3665-twisted-mirror-path-count](https://github.com/Rohit-bukke/leetcode/tree/master/3665-twisted-mirror-path-count) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/Rohit-bukke/leetcode/tree/master/3882-minimum-xor-path-in-a-grid) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/Rohit-bukke/leetcode/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Sorting
 |  |
 | ------- |
@@ -135,6 +137,7 @@
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Rohit-bukke/leetcode/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 | [2567-minimum-score-by-changing-two-elements](https://github.com/Rohit-bukke/leetcode/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/Rohit-bukke/leetcode/tree/master/3789-minimum-cost-to-acquire-required-items) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/Rohit-bukke/leetcode/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Combinatorics
 |  |
 | ------- |
